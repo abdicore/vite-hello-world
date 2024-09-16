@@ -1,10 +1,6 @@
 <script>
-import { AppHeader } from "components/AppHeader.vue";
 
 export default {
-  components: {
-    AppHeader
-  },
   data() {
     return {
       count: 0
@@ -14,7 +10,9 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
+<header>
+    <h1>AppHeader</h1>
+</header>
 </template>
 
 <style scoped>
