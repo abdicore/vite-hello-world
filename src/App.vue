@@ -1,20 +1,19 @@
 <script>
-import { AppHeader } from "components/AppHeader.vue";
+import  AppTitle  from "./components/AppTitle.vue";
 
 export default {
   components: {
-    AppHeader
+    AppTitle
   },
   data() {
     return {
-      count: 0
     }
   }
 }
 </script>
 
 <template>
-  <AppHeader />
+  <AppTitle />
 </template>
 
 <style scoped>
